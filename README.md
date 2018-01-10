@@ -8,3 +8,5 @@
 * add folder Python Cookbook
 
 * add folder Resources
+
+* add Jupyter Notebook
