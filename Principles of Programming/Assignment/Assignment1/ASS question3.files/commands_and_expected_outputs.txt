@@ -1,0 +1,110 @@
+TEST 1 BEGIN
+$ echo 'abcd_efgh' | python3 highest_scoring_words.py
+Enter between 3 and 10 lowercase letters: abcd_efgh
+Incorrect input, giving up...
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo 'aaaaaaaaaa' | python3 highest_scoring_words.py
+Enter between 3 and 10 lowercase letters: aaaaaaaaaa
+The highest score is 2.
+The highest scoring word is a
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo 'aba' | python3 highest_scoring_words.py
+Enter between 3 and 10 lowercase letters: aba
+The highest score is 9.
+The highest scoring word is baa
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo 'ab cd' | python3 highest_scoring_words.py
+Enter between 3 and 10 lowercase letters: ab cd
+The highest score is 11.
+The highest scoring words are, in alphabetical order:
+    abc
+    bad
+    cab
+    dab
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo 'dntfiea' | python3 highest_scoring_words.py
+Enter between 3 and 10 lowercase letters: dntfiea
+The highest score is 18.
+The highest scoring words are, in alphabetical order:
+    defiant
+    fainted
+TEST 5 END
+
+TEST 6 BEGIN
+$ echo 'a a i y l f t t' | python3 highest_scoring_words.py
+Enter between 3 and 10 lowercase letters: a a i y l f t t
+The highest score is 23.
+The highest scoring word is fatality
+TEST 6 END
+
+TEST 7 BEGIN
+$ echo 'ens  efa  acs' | python3 highest_scoring_words.py
+Enter between 3 and 10 lowercase letters: ens efa acs
+The highest score is 20.
+The highest scoring word is feasances
+TEST 7 END
+
+TEST 8 BEGIN
+$ echo 'arru   nieo   gm' | python3 highest_scoring_words.py
+Enter between 3 and 10 lowercase letters: arru nieo gm
+The highest score is 26.
+The highest scoring words are, in alphabetical order:
+    armouring
+    neurogram
+TEST 8 END
+
+TEST 9 BEGIN
+$ echo 'ao   sult ocl s' | python3 highest_scoring_words.py
+Enter between 3 and 10 lowercase letters: ao sult ocl s
+The highest score is 20.
+The highest scoring words are, in alphabetical order:
+    callous
+    colossal
+    outclass
+TEST 9 END
+
+TEST 10 BEGIN
+$ echo 'xm pe s d al   wb' | python3 highest_scoring_words.py
+Enter between 3 and 10 lowercase letters: xm pe s d al wb
+The highest score is 26.
+The highest scoring word is bedlamps
+TEST 10 END
+
+TEST 11 BEGIN
+$ echo 'ulgerfaieb' | python3 highest_scoring_words.py
+Enter between 3 and 10 lowercase letters: ulgerfaieb
+The highest score is 25.
+The highest scoring word is bagful
+TEST 11 END
+
+TEST 12 BEGIN
+$ echo 'h    fo rren im u' | python3 highest_scoring_words.py
+Enter between 3 and 10 lowercase letters: h fo rren im u
+The highest score is 26.
+The highest scoring word is uniformer
+TEST 12 END
+
+TEST 13 BEGIN
+$ echo 'po icl asld    t' | python3 highest_scoring_words.py
+Enter between 3 and 10 lowercase letters: po icl asld t
+The highest score is 22.
+The highest scoring word is placoid
+TEST 13 END
+
+TEST 14 BEGIN
+$ echo 'auto   enn rpi ' | python3 highest_scoring_words.py
+Enter between 3 and 10 lowercase letters: auto enn rpi
+The highest score is 20.
+The highest scoring words are, in alphabetical order:
+    eruption
+    preunion
+TEST 14 END
+

@@ -1,0 +1,81 @@
+TEST 1 BEGIN
+$ echo -e 'none\nAll' | python3 -c 'from random import seed ; import poker_dice ; seed(120) ; poker_dice.play()'
+The roll is: King King 10 9 9
+It is a Two pair
+Which dice do you want to keep for the second roll? none
+That is not possible, try again!
+Which dice do you want to keep for the second roll? All
+Ok, done.
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo -e 'Ace Ace Ace\nAce 9 Ace Ace Ace' | python3 -c 'from random import seed ; import poker_dice ; seed(140) ; poker_dice.play()'
+The roll is: Ace Ace Ace Queen 10
+It is a Three of a kind
+Which dice do you want to keep for the second roll? Ace Ace Ace
+The roll is: Ace Ace Ace Ace 9
+It is a Four of a kind
+Which dice do you want to keep for the third roll? Ace 9 Ace Ace Ace
+Ok, done.
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo -e 'Jack King\nKing 10' | python3 -c 'from random import seed ; import poker_dice ; seed(160) ; poker_dice.play()'
+The roll is: Ace King Queen Jack 10
+It is a Straight
+Which dice do you want to keep for the second roll? Jack King
+The roll is: King Queen Jack 10 9
+It is a Straight
+Which dice do you want to keep for the third roll? King 10
+The roll is: King Jack 10 10 10
+It is a Three of a kind
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo -e 'Queen\nAce Ace Queen\nAce Ace\nAce Ace Ace' | python3 -c 'from random import seed ; import poker_dice ; seed(180) ; poker_dice.play()'
+The roll is: Ace Ace King 10 9
+It is a One pair
+Which dice do you want to keep for the second roll? Queen
+That is not possible, try again!
+Which dice do you want to keep for the second roll? Ace Ace Queen
+That is not possible, try again!
+Which dice do you want to keep for the second roll? Ace Ace
+The roll is: Ace Ace Ace Queen 10
+It is a Three of a kind
+Which dice do you want to keep for the third roll? Ace Ace Ace
+The roll is: Ace Ace Ace Jack 10
+It is a Three of a kind
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo -e 'Ace 9 9 Ace\nall' | python3 -c 'from random import seed ; import poker_dice ; seed(180) ; poker_dice.play()'
+The roll is: Ace Ace King 10 9
+It is a One pair
+Which dice do you want to keep for the second roll? Ace 9 9 Ace
+That is not possible, try again!
+Which dice do you want to keep for the second roll? all
+Ok, done.
+TEST 5 END
+
+TEST 6 BEGIN
+$ python3 -c 'from random import seed ; import poker_dice ; seed(300) ; poker_dice.simulate(200)'
+Five of a kind : 0.00%
+Four of a kind : 4.00%
+Full house     : 4.00%
+Straight       : 3.00%
+Three of a kind: 12.50%
+Two pair       : 23.50%
+One pair       : 51.00%
+TEST 6 END
+
+TEST 7 BEGIN
+$ python3 -c 'from random import seed ; import poker_dice ; seed(500) ; poker_dice.simulate(200000)'
+Five of a kind : 0.08%
+Four of a kind : 1.88%
+Full house     : 3.89%
+Straight       : 3.10%
+Three of a kind: 15.48%
+Two pair       : 23.08%
+One pair       : 46.27%
+TEST 7 END
+

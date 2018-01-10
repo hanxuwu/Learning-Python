@@ -1,0 +1,202 @@
+TEST 1 BEGIN
+$ echo -e '2012--2013\n3' | python3 quiz_4.py
+Input two distinct years in the range 1990 -- 2014: 2012--2013
+Input a strictly positive integer: 3
+Here are the top 3 countries or categories where, between 2012 and 2013,
+  agricultural land and forest land areas have both strictly increased,
+  listed from the countries where the ratio of agricultural land area increase
+  to forest area increase is largest, to those where that ratio is smallest:
+Croatia (590.75)
+Egypt, Arab Rep. (108.33)
+Latvia (90.00)
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo -e '2014 -- 2009\n5' | python3 quiz_4.py
+Input two distinct years in the range 1990 -- 2014: 2014 -- 2009
+Input a strictly positive integer: 5
+Here are the top 5 countries or categories where, between 2009 and 2014,
+  agricultural land and forest land areas have both strictly increased,
+  listed from the countries where the ratio of agricultural land area increase
+  to forest area increase is largest, to those where that ratio is smallest:
+Ethiopia (58.98)
+Macedonia, FYR (54.35)
+Croatia (41.84)
+Morocco (26.53)
+Egypt, Arab Rep. (18.67)
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo -e '1990 -- 2012\n20' | python3 quiz_4.py
+Input two distinct years in the range 1990 -- 2014: 1990 -- 2012
+Input a strictly positive integer: 20
+Here are the top 20 countries or categories where, between 1990 and 2012,
+  agricultural land and forest land areas have both strictly increased,
+  listed from the countries where the ratio of agricultural land area increase
+  to forest area increase is largest, to those where that ratio is smallest:
+Late-demographic dividend (71.05)
+Europe & Central Asia (excluding high income) (54.37)
+Europe & Central Asia (IDA & IBRD countries) (51.58)
+Egypt, Arab Rep. (38.53)
+Europe & Central Asia (25.94)
+Middle East & North Africa (12.42)
+Algeria (10.23)
+Cote d'Ivoire (9.27)
+Lebanon (8.75)
+Ghana (4.95)
+Kuwait (3.93)
+Syrian Arab Republic (3.58)
+Tunisia (3.48)
+Central Europe and the Baltics (3.00)
+Bahrain (1.76)
+Philippines (1.69)
+United Arab Emirates (1.30)
+East Asia & Pacific (excluding high income) (1.27)
+Lao PDR (1.16)
+East Asia & Pacific (IDA & IBRD countries) (1.07)
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo -e '2008--1999\n7' | python3 quiz_4.py
+Input two distinct years in the range 1990 -- 2014: 2008--1999
+Input a strictly positive integer: 7
+Here are the top 7 countries or categories where, between 1999 and 2008,
+  agricultural land and forest land areas have both strictly increased,
+  listed from the countries where the ratio of agricultural land area increase
+  to forest area increase is largest, to those where that ratio is smallest:
+Tajikistan (795.00)
+Lesotho (18.33)
+Lebanon (14.02)
+Cote d'Ivoire (11.57)
+Algeria (8.90)
+Slovenia (7.02)
+Kuwait (5.56)
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo -e '1997-- 2001\n13' | python3 quiz_4.py
+Input two distinct years in the range 1990 -- 2014: 1997-- 2001
+Input a strictly positive integer: 13
+Here are the top 13 countries or categories where, between 1997 and 2001,
+  agricultural land and forest land areas have both strictly increased,
+  listed from the countries where the ratio of agricultural land area increase
+  to forest area increase is largest, to those where that ratio is smallest:
+Azerbaijan (22.16)
+Tajikistan (18.33)
+Egypt, Arab Rep. (15.26)
+Kuwait (14.29)
+Kyrgyz Republic (13.11)
+Rwanda (9.62)
+United Arab Emirates (8.39)
+Ghana (7.78)
+Turkey (6.54)
+Lesotho (6.25)
+New Zealand (3.36)
+Bahrain (2.86)
+East Asia & Pacific (excluding high income) (2.62)
+TEST 5 END
+
+TEST 6 BEGIN
+$ echo -e '2000 --1991\n12' | python3 quiz_4.py
+Input two distinct years in the range 1990 -- 2014: 2000 --1991
+Input a strictly positive integer: 12
+Here are the top 12 countries or categories where, between 1991 and 2000,
+  agricultural land and forest land areas have both strictly increased,
+  listed from the countries where the ratio of agricultural land area increase
+  to forest area increase is largest, to those where that ratio is smallest:
+Europe & Central Asia (excluding high income) (339.98)
+Europe & Central Asia (IDA & IBRD countries) (310.49)
+Middle East & North Africa (101.60)
+Europe & Central Asia (75.08)
+Egypt, Arab Rep. (48.00)
+Central Europe and the Baltics (22.68)
+Bahrain (8.57)
+Morocco (8.46)
+Cote d'Ivoire (6.81)
+Ghana (6.74)
+Lesotho (6.11)
+Kuwait (5.56)
+TEST 6 END
+
+TEST 7 BEGIN
+$ echo -e '1992  --  2004\n11' | python3 quiz_4.py
+Input two distinct years in the range 1990 -- 2014: 1992 -- 2004
+Input a strictly positive integer: 11
+Here are the top 11 countries or categories where, between 1992 and 2004,
+  agricultural land and forest land areas have both strictly increased,
+  listed from the countries where the ratio of agricultural land area increase
+  to forest area increase is largest, to those where that ratio is smallest:
+Tajikistan (100.62)
+Middle East & North Africa (27.51)
+Egypt, Arab Rep. (26.18)
+Kyrgyz Republic (25.91)
+Azerbaijan (15.19)
+Lebanon (7.34)
+Ghana (6.98)
+Cote d'Ivoire (5.46)
+Kuwait (5.36)
+United Arab Emirates (4.10)
+Syrian Arab Republic (4.10)
+TEST 7 END
+
+TEST 8 BEGIN
+$ echo -e '2007  --  2001\n4' | python3 quiz_4.py
+Input two distinct years in the range 1990 -- 2014: 2007 -- 2001
+Input a strictly positive integer: 4
+Here are the top 4 countries or categories where, between 2001 and 2007,
+  agricultural land and forest land areas have both strictly increased,
+  listed from the countries where the ratio of agricultural land area increase
+  to forest area increase is largest, to those where that ratio is smallest:
+Iraq (116.07)
+Egypt, Arab Rep. (26.32)
+Lebanon (17.35)
+Cote d'Ivoire (16.45)
+TEST 8 END
+
+TEST 9 BEGIN
+$ echo -e '1995  --  2006\n10' | python3 quiz_4.py
+Input two distinct years in the range 1990 -- 2014: 1995 -- 2006
+Input a strictly positive integer: 10
+Here are the top 10 countries or categories where, between 1995 and 2006,
+  agricultural land and forest land areas have both strictly increased,
+  listed from the countries where the ratio of agricultural land area increase
+  to forest area increase is largest, to those where that ratio is smallest:
+Tajikistan (153.00)
+Egypt, Arab Rep. (15.53)
+Lebanon (12.54)
+Ghana (7.02)
+Azerbaijan (6.41)
+Kuwait (5.19)
+Rwanda (4.80)
+United Arab Emirates (4.52)
+Cote d'Ivoire (3.86)
+United Kingdom (2.82)
+TEST 9 END
+
+TEST 10 BEGIN
+$ echo -e '1998  --  1991\n17' | python3 quiz_4.py
+Input two distinct years in the range 1990 -- 2014: 1998 -- 1991
+Input a strictly positive integer: 17
+Here are the top 17 countries or categories where, between 1991 and 1998,
+  agricultural land and forest land areas have both strictly increased,
+  listed from the countries where the ratio of agricultural land area increase
+  to forest area increase is largest, to those where that ratio is smallest:
+Europe & Central Asia (excluding high income) (435.39)
+Europe & Central Asia (IDA & IBRD countries) (397.82)
+Middle East & North Africa (136.05)
+Europe & Central Asia (96.52)
+Egypt, Arab Rep. (58.73)
+Central Europe and the Baltics (31.90)
+Morocco (22.75)
+Middle East & North Africa (IDA & IBRD countries) (12.51)
+Middle East & North Africa (excluding high income) (12.44)
+Iran, Islamic Rep. (10.24)
+Cote d'Ivoire (10.11)
+Bahrain (9.09)
+Post-demographic dividend (7.61)
+High income (6.96)
+Ghana (6.64)
+Germany (6.27)
+Syrian Arab Republic (5.76)
+TEST 10 END
+

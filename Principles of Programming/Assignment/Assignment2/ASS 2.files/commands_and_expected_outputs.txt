@@ -1,0 +1,342 @@
+TEST 1 BEGIN
+$ python3 -c 'from sudoku import * ; Sudoku("wgrid_a.txt")'
+Traceback (most recent call last):
+  File "/Users/emartin/Documents/COMP9021/Assignments/Assignment_2/Submissions/9801382/sudoku.py", line 62, in _get_input
+    line = [int(token) for token in line if not token.isspace()]
+  File "/Users/emartin/Documents/COMP9021/Assignments/Assignment_2/Submissions/9801382/sudoku.py", line 62, in <listcomp>
+    line = [int(token) for token in line if not token.isspace()]
+ValueError: invalid literal for int() with base 10: 'P'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/emartin/Documents/COMP9021/Assignments/Assignment_2/Submissions/9801382/sudoku.py", line 16, in __init__
+    self._get_input(file)
+  File "/Users/emartin/Documents/COMP9021/Assignments/Assignment_2/Submissions/9801382/sudoku.py", line 69, in _get_input
+    raise SudokuError('Incorrect input')
+sudoku.SudokuError: Incorrect input
+TEST 1 END
+
+TEST 2 BEGIN
+$ python3 -c 'from sudoku import * ; Sudoku("wgrid_b.txt")'
+Traceback (most recent call last):
+  File "/Users/emartin/Documents/COMP9021/Assignments/Assignment_2/Submissions/9801382/sudoku.py", line 62, in _get_input
+    line = [int(token) for token in line if not token.isspace()]
+  File "/Users/emartin/Documents/COMP9021/Assignments/Assignment_2/Submissions/9801382/sudoku.py", line 62, in <listcomp>
+    line = [int(token) for token in line if not token.isspace()]
+ValueError: invalid literal for int() with base 10: '*'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/emartin/Documents/COMP9021/Assignments/Assignment_2/Submissions/9801382/sudoku.py", line 16, in __init__
+    self._get_input(file)
+  File "/Users/emartin/Documents/COMP9021/Assignments/Assignment_2/Submissions/9801382/sudoku.py", line 69, in _get_input
+    raise SudokuError('Incorrect input')
+sudoku.SudokuError: Incorrect input
+TEST 2 END
+
+TEST 3 BEGIN
+$ python3 -c 'from sudoku import * ; Sudoku("wgrid_c.txt")'
+Traceback (most recent call last):
+  File "/Users/emartin/Documents/COMP9021/Assignments/Assignment_2/Submissions/9801382/sudoku.py", line 66, in _get_input
+    raise ValueError
+ValueError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/emartin/Documents/COMP9021/Assignments/Assignment_2/Submissions/9801382/sudoku.py", line 16, in __init__
+    self._get_input(file)
+  File "/Users/emartin/Documents/COMP9021/Assignments/Assignment_2/Submissions/9801382/sudoku.py", line 69, in _get_input
+    raise SudokuError('Incorrect input')
+sudoku.SudokuError: Incorrect input
+TEST 3 END
+
+TEST 4 BEGIN
+$ python3 -c 'from sudoku import * ; Sudoku("wgrid_d.txt")'
+Traceback (most recent call last):
+  File "/Users/emartin/Documents/COMP9021/Assignments/Assignment_2/Submissions/9801382/sudoku.py", line 66, in _get_input
+    raise ValueError
+ValueError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/emartin/Documents/COMP9021/Assignments/Assignment_2/Submissions/9801382/sudoku.py", line 16, in __init__
+    self._get_input(file)
+  File "/Users/emartin/Documents/COMP9021/Assignments/Assignment_2/Submissions/9801382/sudoku.py", line 69, in _get_input
+    raise SudokuError('Incorrect input')
+sudoku.SudokuError: Incorrect input
+TEST 4 END
+
+TEST 5 BEGIN
+$ python3 -c 'from sudoku import * ; Sudoku("wgrid_e.txt")'
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/emartin/Documents/COMP9021/Assignments/Assignment_2/Submissions/9801382/sudoku.py", line 16, in __init__
+    self._get_input(file)
+  File "/Users/emartin/Documents/COMP9021/Assignments/Assignment_2/Submissions/9801382/sudoku.py", line 71, in _get_input
+    raise SudokuError('Incorrect input')
+sudoku.SudokuError: Incorrect input
+TEST 5 END
+
+TEST 6 BEGIN
+$ python3 -c 'from sudoku import * ; Sudoku("wgrid_f.txt")'
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/emartin/Documents/COMP9021/Assignments/Assignment_2/Submissions/9801382/sudoku.py", line 16, in __init__
+    self._get_input(file)
+  File "/Users/emartin/Documents/COMP9021/Assignments/Assignment_2/Submissions/9801382/sudoku.py", line 71, in _get_input
+    raise SudokuError('Incorrect input')
+sudoku.SudokuError: Incorrect input
+TEST 6 END
+
+TEST 7 BEGIN
+$ python3 -c 'from sudoku import * ; Sudoku("wgrid_g.txt")'
+Traceback (most recent call last):
+  File "/Users/emartin/Documents/COMP9021/Assignments/Assignment_2/Submissions/9801382/sudoku.py", line 66, in _get_input
+    raise ValueError
+ValueError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/emartin/Documents/COMP9021/Assignments/Assignment_2/Submissions/9801382/sudoku.py", line 16, in __init__
+    self._get_input(file)
+  File "/Users/emartin/Documents/COMP9021/Assignments/Assignment_2/Submissions/9801382/sudoku.py", line 69, in _get_input
+    raise SudokuError('Incorrect input')
+sudoku.SudokuError: Incorrect input
+TEST 7 END
+
+TEST 8 BEGIN
+$ python3 -c 'from sudoku import * ; Sudoku("wgrid_h.txt")'
+Traceback (most recent call last):
+  File "/Users/emartin/Documents/COMP9021/Assignments/Assignment_2/Submissions/9801382/sudoku.py", line 66, in _get_input
+    raise ValueError
+ValueError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/emartin/Documents/COMP9021/Assignments/Assignment_2/Submissions/9801382/sudoku.py", line 16, in __init__
+    self._get_input(file)
+  File "/Users/emartin/Documents/COMP9021/Assignments/Assignment_2/Submissions/9801382/sudoku.py", line 69, in _get_input
+    raise SudokuError('Incorrect input')
+sudoku.SudokuError: Incorrect input
+TEST 8 END
+
+TEST 9 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_a.txt") ; sudoku.preassess()'
+There is clearly no solution.
+TEST 9 END
+
+TEST 10 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_b.txt") ; sudoku.preassess()'
+There is clearly no solution.
+TEST 10 END
+
+TEST 11 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_c.txt") ; sudoku.preassess()'
+There is clearly no solution.
+TEST 11 END
+
+TEST 12 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_d.txt") ; sudoku.preassess()'
+There is clearly no solution.
+TEST 12 END
+
+TEST 13 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_e.txt") ; sudoku.preassess()'
+There is clearly no solution.
+TEST 13 END
+
+TEST 14 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_f.txt") ; sudoku.preassess()'
+There is clearly no solution.
+TEST 14 END
+
+TEST 15 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_g.txt") ; sudoku.preassess()'
+There is clearly no solution.
+TEST 15 END
+
+TEST 16 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_h.txt") ; sudoku.preassess()'
+There is clearly no solution.
+TEST 16 END
+
+TEST 17 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_1.txt") ; sudoku.preassess()'
+There might be a solution.
+TEST 17 END
+
+TEST 18 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_2.txt") ; sudoku.preassess()'
+There might be a solution.
+TEST 18 END
+
+TEST 19 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_3.txt") ; sudoku.preassess()'
+There might be a solution.
+TEST 19 END
+
+TEST 20 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_4.txt") ; sudoku.preassess()'
+There might be a solution.
+TEST 20 END
+
+TEST 21 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_5.txt") ; sudoku.preassess()'
+There might be a solution.
+TEST 21 END
+
+TEST 22 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_6.txt") ; sudoku.preassess()'
+There might be a solution.
+TEST 22 END
+
+TEST 23 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_7.txt") ; sudoku.preassess()'
+There might be a solution.
+TEST 23 END
+
+TEST 24 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_8.txt") ; sudoku.preassess()'
+There might be a solution.
+TEST 24 END
+
+TEST 25 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_1.txt") ; sudoku.bare_tex_output()'
+TEST 25 END
+
+TEST 26 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_2.txt") ; sudoku.bare_tex_output()'
+TEST 26 END
+
+TEST 27 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_3.txt") ; sudoku.bare_tex_output()'
+TEST 27 END
+
+TEST 28 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_4.txt") ; sudoku.bare_tex_output()'
+TEST 28 END
+
+TEST 29 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_5.txt") ; sudoku.bare_tex_output()'
+TEST 29 END
+
+TEST 30 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_6.txt") ; sudoku.bare_tex_output()'
+TEST 30 END
+
+TEST 31 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_7.txt") ; sudoku.bare_tex_output()'
+TEST 31 END
+
+TEST 32 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_8.txt") ; sudoku.bare_tex_output()'
+TEST 32 END
+
+TEST 33 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_1.txt") ; sudoku.forced_tex_output()'
+TEST 33 END
+
+TEST 34 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_2.txt") ; sudoku.forced_tex_output()'
+TEST 34 END
+
+TEST 35 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_3.txt") ; sudoku.forced_tex_output()'
+TEST 35 END
+
+TEST 36 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_4.txt") ; sudoku.forced_tex_output()'
+TEST 36 END
+
+TEST 37 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_5.txt") ; sudoku.forced_tex_output()'
+TEST 37 END
+
+TEST 38 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_6.txt") ; sudoku.forced_tex_output()'
+TEST 38 END
+
+TEST 39 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_7.txt") ; sudoku.forced_tex_output()'
+TEST 39 END
+
+TEST 40 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_8.txt") ; sudoku.forced_tex_output()'
+TEST 40 END
+
+TEST 41 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_1.txt") ; sudoku.marked_tex_output()'
+TEST 41 END
+
+TEST 42 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_2.txt") ; sudoku.marked_tex_output()'
+TEST 42 END
+
+TEST 43 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_3.txt") ; sudoku.marked_tex_output()'
+TEST 43 END
+
+TEST 44 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_4.txt") ; sudoku.marked_tex_output()'
+TEST 44 END
+
+TEST 45 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_5.txt") ; sudoku.marked_tex_output()'
+TEST 45 END
+
+TEST 46 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_6.txt") ; sudoku.marked_tex_output()'
+TEST 46 END
+
+TEST 47 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_7.txt") ; sudoku.marked_tex_output()'
+TEST 47 END
+
+TEST 48 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_8.txt") ; sudoku.marked_tex_output()'
+TEST 48 END
+
+TEST 49 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_1.txt") ; sudoku.worked_tex_output()'
+TEST 49 END
+
+TEST 50 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_2.txt") ; sudoku.worked_tex_output()'
+TEST 50 END
+
+TEST 51 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_3.txt") ; sudoku.worked_tex_output()'
+TEST 51 END
+
+TEST 52 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_4.txt") ; sudoku.worked_tex_output()'
+TEST 52 END
+
+TEST 53 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_5.txt") ; sudoku.worked_tex_output()'
+TEST 53 END
+
+TEST 54 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_6.txt") ; sudoku.worked_tex_output()'
+TEST 54 END
+
+TEST 55 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_7.txt") ; sudoku.worked_tex_output()'
+TEST 55 END
+
+TEST 56 BEGIN
+$ python3 -c 'from sudoku import * ; sudoku = Sudoku("grid_8.txt") ; sudoku.worked_tex_output()'
+TEST 56 END
+

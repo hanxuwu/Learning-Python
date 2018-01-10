@@ -1,0 +1,484 @@
+TEST 1 BEGIN
+$ echo 40 8 4 | python3 quiz_3.py
+Enter three nonnegative integers: 40 8 4
+Here is the grid that has been generated:
+    1 1 0 1
+    1 1 1 1
+    1 1 0 1
+    1 0 1 1
+
+For steps of size 2, we have:
+     1 stair with 1 step
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo 41 7 5 | python3 quiz_3.py
+Enter three nonnegative integers: 41 7 5
+Here is the grid that has been generated:
+    1 1 1 1 1
+    1 1 1 0 1
+    0 1 1 1 1
+    1 1 0 1 0
+    1 1 1 1 1
+
+For steps of size 2, we have:
+     2 stairs with 1 step
+     1 stair with 2 steps
+
+For steps of size 3, we have:
+     1 stair with 1 step
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo 42 9 6 | python3 quiz_3.py
+Enter three nonnegative integers: 42 9 6
+Here is the grid that has been generated:
+    1 0 1 1 1 1
+    1 1 1 1 1 0
+    0 1 1 1 1 1
+    0 1 1 1 1 1
+    1 1 1 0 1 1
+    1 1 1 1 1 1
+
+For steps of size 2, we have:
+     2 stairs with 1 step
+     3 stairs with 2 steps
+     1 stair with 3 steps
+
+For steps of size 3, we have:
+     2 stairs with 1 step
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo 43 10 8 | python3 quiz_3.py
+Enter three nonnegative integers: 43 10 8
+Here is the grid that has been generated:
+    0 1 1 1 1 1 1 1
+    1 1 1 0 1 1 1 1
+    1 1 1 1 1 0 1 1
+    1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 0
+    1 0 1 0 1 1 1 1
+    1 1 1 1 1 1 1 0
+    1 1 1 1 1 1 1 1
+
+For steps of size 2, we have:
+     8 stairs with 1 step
+     2 stairs with 2 steps
+     1 stair with 3 steps
+     1 stair with 4 steps
+     1 stair with 6 steps
+
+For steps of size 3, we have:
+     4 stairs with 1 step
+     2 stairs with 2 steps
+
+For steps of size 4, we have:
+     3 stairs with 1 step
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo 44 3 11 | python3 quiz_3.py
+Enter three nonnegative integers: 44 3 11
+Here is the grid that has been generated:
+    1 0 1 1 1 1 0 1 0 0 0
+    1 1 1 1 1 1 0 1 1 1 0
+    0 0 1 1 0 1 0 1 1 0 1
+    1 1 1 1 1 1 0 0 1 0 1
+    1 1 1 1 1 1 1 1 0 1 1
+    0 1 0 1 1 1 1 0 1 1 0
+    1 0 1 0 1 0 1 1 0 1 0
+    1 0 0 1 1 1 1 0 1 1 1
+    0 1 1 0 1 1 1 1 1 1 1
+    0 1 1 1 1 1 0 1 1 1 1
+    0 1 1 1 1 1 0 1 1 0 1
+
+For steps of size 2, we have:
+     11 stairs with 1 step
+     4 stairs with 2 steps
+     1 stair with 5 steps
+
+For steps of size 3, we have:
+     2 stairs with 1 step
+     1 stair with 2 steps
+
+For steps of size 4, we have:
+     2 stairs with 1 step
+
+For steps of size 5, we have:
+     2 stairs with 1 step
+TEST 5 END
+
+TEST 6 BEGIN
+$ echo 45 2 15 | python3 quiz_3.py
+Enter three nonnegative integers: 45 2 15
+Here is the grid that has been generated:
+    1 1 1 1 0 1 1 0 0 1 0 0 1 0 1
+    1 1 0 1 0 0 1 1 0 0 1 1 0 1 1
+    0 1 0 0 0 1 1 1 1 1 0 1 0 0 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    0 1 1 0 1 0 1 0 0 1 1 1 1 1 0
+    1 1 1 0 1 1 1 0 1 1 0 1 1 0 1
+    1 1 1 1 1 1 1 0 0 0 1 1 0 1 0
+    0 1 1 1 1 1 1 1 1 0 1 1 0 1 1
+    1 1 0 1 0 0 0 1 1 1 0 0 1 0 0
+    0 0 1 0 1 1 0 0 1 1 1 1 1 1 1
+    1 1 1 1 0 1 1 0 0 1 1 1 1 1 0
+    1 1 1 1 0 1 1 1 1 0 1 1 1 0 1
+    1 1 1 1 0 0 1 0 0 0 0 0 1 1 1
+    1 1 1 1 1 1 1 1 0 1 1 1 1 1 1
+    1 0 1 0 1 0 0 1 1 1 0 1 0 1 1
+
+For steps of size 2, we have:
+     14 stairs with 1 step
+     4 stairs with 2 steps
+     2 stairs with 3 steps
+     1 stair with 4 steps
+     2 stairs with 6 steps
+
+For steps of size 3, we have:
+     6 stairs with 1 step
+     1 stair with 5 steps
+
+For steps of size 4, we have:
+     1 stair with 1 step
+
+For steps of size 5, we have:
+     1 stair with 1 step
+TEST 6 END
+
+TEST 7 BEGIN
+$ echo 46 12 16 | python3 quiz_3.py
+Enter three nonnegative integers: 46 12 16
+Here is the grid that has been generated:
+    1 1 0 1 1 1 1 1 1 1 1 1 0 0 1 1
+    1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1
+    1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0
+    1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1
+    1 1 1 1 1 0 1 0 1 1 1 1 1 1 0 1
+    1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1
+    1 1 1 1 0 1 1 1 1 0 0 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1
+    0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+
+For steps of size 2, we have:
+     4 stairs with 1 step
+     7 stairs with 2 steps
+     4 stairs with 3 steps
+     7 stairs with 4 steps
+     5 stairs with 5 steps
+     3 stairs with 6 steps
+     1 stair with 7 steps
+     2 stairs with 8 steps
+     2 stairs with 9 steps
+     1 stair with 11 steps
+
+For steps of size 3, we have:
+     21 stairs with 1 step
+     14 stairs with 2 steps
+     6 stairs with 3 steps
+     4 stairs with 4 steps
+     3 stairs with 5 steps
+
+For steps of size 4, we have:
+     26 stairs with 1 step
+     13 stairs with 2 steps
+     1 stair with 3 steps
+
+For steps of size 5, we have:
+     31 stairs with 1 step
+
+For steps of size 6, we have:
+     15 stairs with 1 step
+
+For steps of size 7, we have:
+     6 stairs with 1 step
+
+For steps of size 8, we have:
+     1 stair with 1 step
+TEST 7 END
+
+TEST 8 BEGIN
+$ echo 47 7 20 | python3 quiz_3.py
+Enter three nonnegative integers: 47 7 20
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 1 0 1 0 1 0 1 1 0 1 1 1 1
+    1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1
+    1 0 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 0 1 0 1 1
+    1 1 1 1 0 1 1 1 1 0 1 0 1 1 0 1 1 0 1 1
+    1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1
+    1 1 1 1 1 1 1 1 0 1 1 1 1 0 1 1 0 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0
+    1 1 1 1 1 1 1 1 1 1 1 0 1 1 0 0 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 0 1 1
+    1 1 1 0 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1
+    0 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1
+    0 1 1 1 1 1 1 0 1 0 0 1 1 1 1 1 1 1 1 1
+    0 1 1 1 1 1 1 1 1 1 0 1 1 1 1 0 0 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0
+
+For steps of size 2, we have:
+     13 stairs with 1 step
+     18 stairs with 2 steps
+     4 stairs with 3 steps
+     6 stairs with 4 steps
+     7 stairs with 5 steps
+     5 stairs with 6 steps
+     2 stairs with 7 steps
+     3 stairs with 9 steps
+     1 stair with 10 steps
+
+For steps of size 3, we have:
+     29 stairs with 1 step
+     14 stairs with 2 steps
+     7 stairs with 3 steps
+     8 stairs with 4 steps
+     1 stair with 5 steps
+
+For steps of size 4, we have:
+     22 stairs with 1 step
+     10 stairs with 2 steps
+     2 stairs with 3 steps
+
+For steps of size 5, we have:
+     29 stairs with 1 step
+     1 stair with 2 steps
+     1 stair with 3 steps
+
+For steps of size 6, we have:
+     20 stairs with 1 step
+
+For steps of size 7, we have:
+     9 stairs with 1 step
+     1 stair with 2 steps
+
+For steps of size 8, we have:
+     4 stairs with 1 step
+TEST 8 END
+
+TEST 9 BEGIN
+$ echo 48 3 31 | python3 quiz_3.py
+Enter three nonnegative integers: 48 3 31
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 0 1 0 1 1 1 1 0 1 1 1 0 1 1 1 0
+    1 1 1 1 1 1 1 1 0 1 0 1 1 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 0 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 0 0 0 0 0 1 1 0 1 1 0 1 0
+    1 1 1 0 1 1 1 0 1 1 0 1 0 1 1 1 0 1 1 1 0 0 0 1 1 1 0 1 1 1 1
+    1 1 1 0 0 0 1 0 1 1 0 1 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 0 1
+    0 1 1 0 1 1 0 1 1 1 1 1 1 0 0 1 1 1 1 0 0 1 0 0 0 1 1 1 0 0 1
+    1 1 0 0 1 0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 0 1 1
+    1 1 1 1 0 1 0 1 1 0 1 1 1 1 1 1 1 1 0 0 0 0 1 1 1 1 1 1 1 1 1
+    1 1 1 1 0 1 0 1 0 1 1 1 1 1 1 1 0 1 1 1 1 0 0 1 1 1 1 1 0 1 1
+    1 0 1 0 1 0 1 1 1 0 0 1 0 1 1 0 1 1 0 0 1 1 1 0 1 1 1 1 0 1 0
+    1 1 1 1 0 0 1 0 1 0 1 1 0 1 0 1 1 1 1 1 1 1 1 0 0 0 0 0 1 1 1
+    0 1 0 1 1 1 1 0 0 1 0 0 1 1 1 1 0 1 1 0 0 1 1 1 1 1 1 1 1 1 0
+    0 0 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1
+    1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 0 1 1 1 1 1 0 0 1 0 1 1 1 1 0 1
+    0 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 0 0 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1
+    1 1 1 0 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 0 1 0 0
+    0 1 0 0 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0
+    1 1 1 1 1 1 0 1 1 0 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1
+    1 1 0 1 1 1 0 1 0 1 1 1 0 0 1 0 1 0 1 1 0 0 1 1 0 0 1 0 1 0 0
+    1 1 0 1 1 0 0 1 1 1 1 1 1 0 0 0 1 0 1 1 1 1 0 1 1 1 1 1 0 1 1
+    1 0 0 0 0 1 0 0 1 1 0 0 0 1 0 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1
+    0 1 1 0 1 0 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0
+    1 1 0 0 1 0 1 1 1 1 0 1 0 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1
+    1 1 1 0 0 1 1 1 1 1 1 1 0 1 1 0 1 1 0 0 1 1 1 0 1 1 0 1 1 0 1
+    1 1 1 1 1 1 1 1 0 1 0 1 1 1 1 1 0 1 1 1 0 0 1 1 0 0 1 0 1 1 1
+    1 0 0 1 1 1 1 1 0 1 0 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1
+    1 1 1 1 1 0 0 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0
+    1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1
+    1 0 1 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 0 1 0 1 0 0 1 1 1 0 1 1
+    1 1 1 0 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 0 1 1 0 1 1 1 0 1 1 1 1
+
+For steps of size 2, we have:
+     58 stairs with 1 step
+     31 stairs with 2 steps
+     26 stairs with 3 steps
+     3 stairs with 4 steps
+     2 stairs with 5 steps
+     5 stairs with 6 steps
+     1 stair with 7 steps
+     1 stair with 9 steps
+
+For steps of size 3, we have:
+     62 stairs with 1 step
+     11 stairs with 2 steps
+     5 stairs with 3 steps
+     1 stair with 5 steps
+
+For steps of size 4, we have:
+     24 stairs with 1 step
+     7 stairs with 2 steps
+
+For steps of size 5, we have:
+     9 stairs with 1 step
+     3 stairs with 2 steps
+
+For steps of size 6, we have:
+     5 stairs with 1 step
+     1 stair with 2 steps
+
+For steps of size 7, we have:
+     1 stair with 1 step
+     1 stair with 2 steps
+
+For steps of size 8, we have:
+     1 stair with 1 step
+TEST 9 END
+
+TEST 10 BEGIN
+$ echo 49 13 37 | python3 quiz_3.py
+Enter three nonnegative integers: 49 13 37
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 0 1 1 0 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 0 1 0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1
+    1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1
+    0 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 1 1 1
+    1 1 0 1 1 1 1 1 0 1 1 1 1 0 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1
+    1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 1 1
+    1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 0 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1
+    1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0
+    1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 0
+    1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1
+    1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 0 1 1 0 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1
+
+For steps of size 2, we have:
+     26 stairs with 1 step
+     22 stairs with 2 steps
+     15 stairs with 3 steps
+     22 stairs with 4 steps
+     21 stairs with 5 steps
+     13 stairs with 6 steps
+     9 stairs with 7 steps
+     6 stairs with 8 steps
+     8 stairs with 9 steps
+     7 stairs with 10 steps
+     7 stairs with 11 steps
+     3 stairs with 12 steps
+     3 stairs with 13 steps
+     3 stairs with 14 steps
+     3 stairs with 15 steps
+     2 stairs with 16 steps
+     2 stairs with 18 steps
+
+For steps of size 3, we have:
+     75 stairs with 1 step
+     66 stairs with 2 steps
+     32 stairs with 3 steps
+     28 stairs with 4 steps
+     18 stairs with 5 steps
+     12 stairs with 6 steps
+     11 stairs with 7 steps
+     4 stairs with 8 steps
+     1 stair with 13 steps
+
+For steps of size 4, we have:
+     139 stairs with 1 step
+     57 stairs with 2 steps
+     33 stairs with 3 steps
+     21 stairs with 4 steps
+     4 stairs with 5 steps
+     5 stairs with 6 steps
+     1 stair with 8 steps
+
+For steps of size 5, we have:
+     124 stairs with 1 step
+     59 stairs with 2 steps
+     16 stairs with 3 steps
+     7 stairs with 4 steps
+     2 stairs with 5 steps
+     2 stairs with 6 steps
+
+For steps of size 6, we have:
+     130 stairs with 1 step
+     28 stairs with 2 steps
+     10 stairs with 3 steps
+     1 stair with 4 steps
+     2 stairs with 5 steps
+
+For steps of size 7, we have:
+     102 stairs with 1 step
+     24 stairs with 2 steps
+     6 stairs with 3 steps
+
+For steps of size 8, we have:
+     96 stairs with 1 step
+     13 stairs with 2 steps
+     3 stairs with 3 steps
+
+For steps of size 9, we have:
+     59 stairs with 1 step
+     15 stairs with 2 steps
+
+For steps of size 10, we have:
+     49 stairs with 1 step
+     6 stairs with 2 steps
+
+For steps of size 11, we have:
+     35 stairs with 1 step
+     1 stair with 2 steps
+
+For steps of size 12, we have:
+     22 stairs with 1 step
+     1 stair with 2 steps
+
+For steps of size 13, we have:
+     12 stairs with 1 step
+
+For steps of size 14, we have:
+     4 stairs with 1 step
+
+For steps of size 15, we have:
+     1 stair with 1 step
+
+For steps of size 16, we have:
+     1 stair with 1 step
+
+For steps of size 17, we have:
+     2 stairs with 1 step
+
+For steps of size 18, we have:
+     2 stairs with 1 step
+TEST 10 END
+

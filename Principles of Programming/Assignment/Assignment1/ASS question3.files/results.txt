@@ -1,0 +1,36 @@
+Test 1 ... passed	0.1
+Test 2_1 ... failed	0
+Test 2_2 ... failed	0
+Test 3_1 ... passed	0.05
+Test 3_2 ... passed	0.05
+Test 4_1 ... passed	0.1
+Test 4_2 ... passed	0.1
+Test 5_1 ... passed	0.1
+Test 5_2 ... passed	0.1
+Test 6_1 ... passed	0.1
+Test 6_2 ... passed	0.1
+Test 7_1 ... passed	0.1
+Test 7_2 ... passed	0.1
+Test 8_1 ... passed	0.1
+Test 8_2 ... passed	0.1
+Test 9_1 ... passed	0.1
+Test 9_2 ... passed	0.1
+Test 10_1 ... passed	0.1
+Test 10_2 ... passed	0.1
+Test 11_1 ... passed	0.1
+Test 11_2 ... passed	0.1
+Test 12_1 ... passed	0.1
+Test 12_2 ... passed	0.1
+Test 13_1 ... passed	0.1
+Test 13_2 ... passed	0.1
+Test 14_1 ... passed	0.1
+Test 14_2 ... passed	0.1
+Test 15 ... failed	0
+Test 16 ... failed	0
+Test 17 ... failed	0
+Test 18 ... failed	0
+Test 19 ... failed	0
+
+Penalty       	
+
+Total mark    	2.40

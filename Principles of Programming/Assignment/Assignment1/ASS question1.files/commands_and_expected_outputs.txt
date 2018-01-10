@@ -1,0 +1,78 @@
+TEST 1 BEGIN
+$ echo 1 | python3 pivoting_die.py
+Enter the desired goal cell number: 1
+On cell 1, 3 is at the top, 2 at the front, and 1 on the right.
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo 12 | python3 pivoting_die.py
+Enter the desired goal cell number: 12
+On cell 12, 3 is at the top, 6 at the front, and 2 on the right.
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo 123 | python3 pivoting_die.py
+Enter the desired goal cell number: 123
+On cell 123, 4 is at the top, 5 at the front, and 1 on the right.
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo 1234 | python3 pivoting_die.py
+Enter the desired goal cell number: 1234
+On cell 1234, 5 is at the top, 3 at the front, and 1 on the right.
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo 12345 | python3 pivoting_die.py
+Enter the desired goal cell number: 12345
+On cell 12345, 1 is at the top, 3 at the front, and 2 on the right.
+TEST 5 END
+
+TEST 6 BEGIN
+$ echo 123456 | python3 pivoting_die.py
+Enter the desired goal cell number: 123456
+On cell 123456, 3 is at the top, 6 at the front, and 2 on the right.
+TEST 6 END
+
+TEST 7 BEGIN
+$ echo 1234567 | python3 pivoting_die.py
+Enter the desired goal cell number: 1234567
+On cell 1234567, 5 is at the top, 6 at the front, and 3 on the right.
+TEST 7 END
+
+TEST 8 BEGIN
+$ echo 12345678 | python3 pivoting_die.py
+Enter the desired goal cell number: 12345678
+On cell 12345678, 5 is at the top, 4 at the front, and 6 on the right.
+TEST 8 END
+
+TEST 9 BEGIN
+$ echo 123456789 | python3 pivoting_die.py
+Enter the desired goal cell number: 123456789
+On cell 123456789, 3 is at the top, 2 at the front, and 1 on the right.
+TEST 9 END
+
+TEST 10 BEGIN
+$ echo 1234567890 | python3 pivoting_die.py
+Enter the desired goal cell number: 1234567890
+On cell 1234567890, 2 is at the top, 4 at the front, and 1 on the right.
+TEST 10 END
+
+TEST 11 BEGIN
+$ echo 12345678901 | python3 pivoting_die.py
+Enter the desired goal cell number: 12345678901
+On cell 12345678901, 1 is at the top, 3 at the front, and 2 on the right.
+TEST 11 END
+
+TEST 12 BEGIN
+$ echo 123456789012 | python3 pivoting_die.py
+Enter the desired goal cell number: 123456789012
+On cell 123456789012, 4 is at the top, 1 at the front, and 2 on the right.
+TEST 12 END
+
+TEST 13 BEGIN
+$ echo 1234567890123 | python3 pivoting_die.py
+Enter the desired goal cell number: 1234567890123
+On cell 1234567890123, 5 is at the top, 6 at the front, and 3 on the right.
+TEST 13 END
+
